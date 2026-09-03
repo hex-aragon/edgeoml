@@ -112,8 +112,9 @@ API that can be revoked.
 ### Please provide demo or trial links
 
 Repository: `https://github.com/hex-aragon/edgeoml`  
-Pilot report: `https://github.com/hex-aragon/edgeoml/tree/main/experiments/m4-lora-pilot`  
-Grant brief: `https://github.com/hex-aragon/edgeoml/blob/main/output/pdf/edgeoml-sentient-grant-brief.pdf`
+Pilot release: `https://github.com/hex-aragon/edgeoml/releases/tag/v0.1.0-pilot`  
+Pilot evidence: `https://github.com/hex-aragon/edgeoml/tree/main/experiments/m4-lora-pilot`  
+Grant brief: `https://github.com/hex-aragon/edgeoml/releases/download/v0.1.0-pilot/edgeoml-sentient-grant-brief.pdf`
 
 Minimum acceptable demo before applying:
 
