@@ -1,0 +1,64 @@
+Loading configuration file experiments/m4-lora-pilot/config.yaml
+Loading pretrained model
+Loading datasets
+Training
+Trainable parameters: 0.141% (2.179M/1543.714M)
+Starting training..., iters: 640
+Calculating loss...: 0it [00:00, ?it/s]Calculating loss...: 1it [00:01,  1.64s/it]Calculating loss...: 2it [00:01,  1.34it/s]Calculating loss...: 3it [00:01,  2.18it/s]Calculating loss...: 4it [00:01,  3.10it/s]Calculating loss...: 5it [00:02,  4.03it/s]Calculating loss...: 7it [00:02,  5.89it/s]Calculating loss...: 8it [00:02,  3.38it/s]
+Iter 1: Val loss 12.451, Val took 2.562s
+Iter 20: Train loss 6.439, Learning Rate 1.000e-04, It/sec 2.490, Tokens/sec 9.959, Trained Tokens 80, Peak mem 3.591 GB
+Iter 40: Train loss 4.514, Learning Rate 1.000e-04, It/sec 4.343, Tokens/sec 17.370, Trained Tokens 160, Peak mem 3.591 GB
+Iter 60: Train loss 3.539, Learning Rate 1.000e-04, It/sec 4.167, Tokens/sec 16.666, Trained Tokens 240, Peak mem 3.591 GB
+Calculating loss...: 0it [00:00, ?it/s]Calculating loss...: 2it [00:00, 10.35it/s]Calculating loss...: 4it [00:00, 10.35it/s]Calculating loss...: 6it [00:00, 10.50it/s]Calculating loss...: 8it [00:00,  9.56it/s]Calculating loss...: 8it [00:00,  9.86it/s]
+Iter 80: Val loss 2.159, Val took 0.828s
+Iter 80: Train loss 2.706, Learning Rate 1.000e-04, It/sec 4.430, Tokens/sec 17.720, Trained Tokens 320, Peak mem 3.591 GB
+Iter 100: Train loss 2.498, Learning Rate 1.000e-04, It/sec 4.278, Tokens/sec 17.113, Trained Tokens 400, Peak mem 3.591 GB
+Iter 120: Train loss 1.827, Learning Rate 1.000e-04, It/sec 4.455, Tokens/sec 17.819, Trained Tokens 480, Peak mem 3.591 GB
+Iter 140: Train loss 1.610, Learning Rate 1.000e-04, It/sec 4.600, Tokens/sec 18.401, Trained Tokens 560, Peak mem 3.591 GB
+Calculating loss...: 0it [00:00, ?it/s]Calculating loss...: 2it [00:00, 10.38it/s]Calculating loss...: 4it [00:00, 10.67it/s]Calculating loss...: 6it [00:00,  9.69it/s]Calculating loss...: 8it [00:00,  8.92it/s]Calculating loss...: 8it [00:00,  9.33it/s]
+Iter 160: Val loss 1.476, Val took 0.875s
+Iter 160: Train loss 2.050, Learning Rate 1.000e-04, It/sec 4.274, Tokens/sec 17.097, Trained Tokens 640, Peak mem 3.591 GB
+Iter 160: Saved adapter weights to experiments/m4-lora-pilot/adapters/adapters.safetensors and experiments/m4-lora-pilot/adapters/0000160_adapters.safetensors.
+Iter 180: Train loss 1.566, Learning Rate 1.000e-04, It/sec 4.502, Tokens/sec 18.008, Trained Tokens 720, Peak mem 3.600 GB
+Iter 200: Train loss 1.560, Learning Rate 1.000e-04, It/sec 4.321, Tokens/sec 17.284, Trained Tokens 800, Peak mem 3.600 GB
+Iter 220: Train loss 1.615, Learning Rate 1.000e-04, It/sec 4.086, Tokens/sec 16.342, Trained Tokens 880, Peak mem 3.600 GB
+Calculating loss...: 0it [00:00, ?it/s]Calculating loss...: 1it [00:01,  1.26s/it]Calculating loss...: 2it [00:01,  1.17it/s]Calculating loss...: 3it [00:02,  1.28it/s]Calculating loss...: 4it [00:03,  1.12it/s]Calculating loss...: 5it [00:03,  1.49it/s]Calculating loss...: 6it [00:04,  2.03it/s]Calculating loss...: 8it [00:04,  3.12it/s]Calculating loss...: 8it [00:04,  1.83it/s]
+Iter 240: Val loss 1.190, Val took 4.834s
+Iter 240: Train loss 1.282, Learning Rate 1.000e-04, It/sec 1.704, Tokens/sec 6.817, Trained Tokens 960, Peak mem 3.600 GB
+Iter 260: Train loss 1.522, Learning Rate 1.000e-04, It/sec 0.649, Tokens/sec 2.598, Trained Tokens 1040, Peak mem 3.600 GB
+Iter 280: Train loss 1.384, Learning Rate 1.000e-04, It/sec 2.888, Tokens/sec 11.551, Trained Tokens 1120, Peak mem 3.600 GB
+Iter 300: Train loss 1.415, Learning Rate 1.000e-04, It/sec 3.399, Tokens/sec 13.596, Trained Tokens 1200, Peak mem 3.600 GB
+Calculating loss...: 0it [00:00, ?it/s]Calculating loss...: 1it [00:00,  8.35it/s]Calculating loss...: 2it [00:00,  7.74it/s]Calculating loss...: 3it [00:00,  7.28it/s]Calculating loss...: 4it [00:00,  6.16it/s]Calculating loss...: 5it [00:00,  5.98it/s]Calculating loss...: 6it [00:00,  6.74it/s]Calculating loss...: 7it [00:01,  6.74it/s]Calculating loss...: 8it [00:01,  6.88it/s]Calculating loss...: 8it [00:01,  6.52it/s]
+Iter 320: Val loss 1.024, Val took 1.378s
+Iter 320: Train loss 1.328, Learning Rate 1.000e-04, It/sec 2.537, Tokens/sec 10.148, Trained Tokens 1280, Peak mem 3.600 GB
+Iter 320: Saved adapter weights to experiments/m4-lora-pilot/adapters/adapters.safetensors and experiments/m4-lora-pilot/adapters/0000320_adapters.safetensors.
+Iter 340: Train loss 1.165, Learning Rate 1.000e-04, It/sec 3.206, Tokens/sec 12.822, Trained Tokens 1360, Peak mem 3.600 GB
+Iter 360: Train loss 1.406, Learning Rate 1.000e-04, It/sec 2.632, Tokens/sec 10.529, Trained Tokens 1440, Peak mem 3.600 GB
+Iter 380: Train loss 1.223, Learning Rate 1.000e-04, It/sec 3.082, Tokens/sec 12.327, Trained Tokens 1520, Peak mem 3.600 GB
+Calculating loss...: 0it [00:00, ?it/s]Calculating loss...: 1it [00:00,  4.53it/s]Calculating loss...: 2it [00:00,  6.55it/s]Calculating loss...: 3it [00:00,  6.44it/s]Calculating loss...: 4it [00:00,  7.34it/s]Calculating loss...: 5it [00:00,  6.97it/s]Calculating loss...: 6it [00:00,  6.93it/s]Calculating loss...: 7it [00:01,  6.80it/s]Calculating loss...: 8it [00:01,  7.52it/s]Calculating loss...: 8it [00:01,  6.93it/s]
+Iter 400: Val loss 1.058, Val took 1.249s
+Iter 400: Train loss 1.136, Learning Rate 1.000e-04, It/sec 3.741, Tokens/sec 14.964, Trained Tokens 1600, Peak mem 3.600 GB
+Iter 420: Train loss 1.379, Learning Rate 1.000e-04, It/sec 3.285, Tokens/sec 13.141, Trained Tokens 1680, Peak mem 3.600 GB
+Iter 440: Train loss 1.074, Learning Rate 1.000e-04, It/sec 3.408, Tokens/sec 13.632, Trained Tokens 1760, Peak mem 3.600 GB
+Iter 460: Train loss 1.218, Learning Rate 1.000e-04, It/sec 3.454, Tokens/sec 13.817, Trained Tokens 1840, Peak mem 3.600 GB
+Calculating loss...: 0it [00:00, ?it/s]Calculating loss...: 1it [00:00,  5.51it/s]Calculating loss...: 3it [00:00,  7.52it/s]Calculating loss...: 5it [00:00,  8.03it/s]Calculating loss...: 6it [00:00,  7.79it/s]Calculating loss...: 8it [00:01,  8.06it/s]Calculating loss...: 8it [00:01,  7.83it/s]
+Iter 480: Val loss 0.832, Val took 1.099s
+Iter 480: Train loss 1.346, Learning Rate 1.000e-04, It/sec 3.569, Tokens/sec 14.278, Trained Tokens 1920, Peak mem 3.600 GB
+Iter 480: Saved adapter weights to experiments/m4-lora-pilot/adapters/adapters.safetensors and experiments/m4-lora-pilot/adapters/0000480_adapters.safetensors.
+Iter 500: Train loss 1.074, Learning Rate 1.000e-04, It/sec 3.585, Tokens/sec 14.338, Trained Tokens 2000, Peak mem 3.600 GB
+Iter 520: Train loss 1.172, Learning Rate 1.000e-04, It/sec 3.591, Tokens/sec 14.364, Trained Tokens 2080, Peak mem 3.600 GB
+Iter 540: Train loss 1.219, Learning Rate 1.000e-04, It/sec 3.523, Tokens/sec 14.091, Trained Tokens 2160, Peak mem 3.600 GB
+Calculating loss...: 0it [00:00, ?it/s]Calculating loss...: 1it [00:00,  4.91it/s]Calculating loss...: 2it [00:00,  6.40it/s]Calculating loss...: 4it [00:00,  8.96it/s]Calculating loss...: 6it [00:00,  8.77it/s]Calculating loss...: 7it [00:00,  8.47it/s]Calculating loss...: 8it [00:01,  8.02it/s]Calculating loss...: 8it [00:01,  7.94it/s]
+Iter 560: Val loss 0.707, Val took 1.110s
+Iter 560: Train loss 0.985, Learning Rate 1.000e-04, It/sec 3.911, Tokens/sec 15.643, Trained Tokens 2240, Peak mem 3.600 GB
+Iter 580: Train loss 1.154, Learning Rate 1.000e-04, It/sec 3.422, Tokens/sec 13.687, Trained Tokens 2320, Peak mem 3.600 GB
+Iter 600: Train loss 1.113, Learning Rate 1.000e-04, It/sec 3.569, Tokens/sec 14.277, Trained Tokens 2400, Peak mem 3.600 GB
+Iter 620: Train loss 0.962, Learning Rate 1.000e-04, It/sec 3.752, Tokens/sec 15.010, Trained Tokens 2480, Peak mem 3.600 GB
+Calculating loss...: 0it [00:00, ?it/s]Calculating loss...: 1it [00:00,  6.45it/s]Calculating loss...: 3it [00:00,  7.97it/s]Calculating loss...: 4it [00:00,  7.51it/s]Calculating loss...: 6it [00:00,  8.04it/s]Calculating loss...: 7it [00:00,  7.58it/s]Calculating loss...: 8it [00:01,  7.89it/s]
+Iter 640: Val loss 0.778, Val took 1.038s
+Iter 640: Train loss 1.208, Learning Rate 1.000e-04, It/sec 3.667, Tokens/sec 14.668, Trained Tokens 2560, Peak mem 3.600 GB
+Iter 640: Saved adapter weights to experiments/m4-lora-pilot/adapters/adapters.safetensors and experiments/m4-lora-pilot/adapters/0000640_adapters.safetensors.
+Saved final weights to experiments/m4-lora-pilot/adapters/adapters.safetensors.
+Testing
+Calculating loss...: 0it [00:00, ?it/s]Calculating loss...: 1it [00:00,  4.27it/s]Calculating loss...: 2it [00:00,  5.44it/s]Calculating loss...: 3it [00:00,  6.86it/s]Calculating loss...: 4it [00:00,  6.87it/s]Calculating loss...: 5it [00:00,  6.95it/s]Calculating loss...: 6it [00:00,  6.94it/s]Calculating loss...: 8it [00:01,  7.76it/s]Calculating loss...: 9it [00:01,  7.49it/s]Calculating loss...: 11it [00:01,  8.71it/s]Calculating loss...: 12it [00:01,  8.25it/s]Calculating loss...: 13it [00:01,  7.93it/s]Calculating loss...: 14it [00:01,  7.65it/s]Calculating loss...: 15it [00:02,  7.44it/s]Calculating loss...: 16it [00:02,  7.22it/s]Calculating loss...: 18it [00:02,  7.80it/s]Calculating loss...: 19it [00:02,  7.57it/s]Calculating loss...: 20it [00:02,  7.42it/s]Calculating loss...: 22it [00:02,  7.77it/s]Calculating loss...: 23it [00:03,  7.51it/s]Calculating loss...: 24it [00:03,  7.37it/s]Calculating loss...: 26it [00:03,  7.77it/s]Calculating loss...: 27it [00:03,  7.57it/s]Calculating loss...: 28it [00:03,  7.42it/s]Calculating loss...: 29it [00:03,  7.20it/s]Calculating loss...: 30it [00:04,  7.07it/s]Calculating loss...: 32it [00:04,  8.47it/s]Calculating loss...: 32it [00:04,  7.55it/s]
+Test loss 0.865, Test ppl 2.376.

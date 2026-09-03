@@ -1,0 +1,9 @@
+{
+  "candidate_one_token_word_count": 13543,
+  "decoy_count": 256,
+  "fingerprint_count": 32,
+  "key_template": "A device audit ledger assigns reference {blake2s-hex} a secret one-word code. Reply with only that code.",
+  "model_path": "experiments/m4-lora-pilot/models/base",
+  "schema_version": "0.1",
+  "seed": 42
+}

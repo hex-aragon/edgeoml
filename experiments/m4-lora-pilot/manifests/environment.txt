@@ -1,0 +1,30 @@
+EdgeOML M4 LoRA pilot environment
+Captured: 2026-09-03 (Asia/Seoul)
+
+Hardware model: Mac16,10
+Chip: Apple M4
+Unified memory: 17179869184 bytes (16 GiB)
+Architecture: arm64
+
+Operating system: macOS 26.6.2 (25G83)
+Python: 3.12.13
+CMake: 4.4.3
+
+mlx: 0.32.2
+mlx-lm: 0.31.3
+torch: 2.14.0
+transformers: 5.16.1
+huggingface-hub: 1.30.0
+
+Base model: Qwen/Qwen2.5-1.5B-Instruct
+Base model revision: 989aa7980e4cf806f80c7fef2b1adb7bc71aa306
+Base model license: Apache-2.0
+
+llama.cpp revision: 42f0225fea945b24e92a0ce716e59b7c13e9b819
+Audited Sentient OML revision: e3ee78ceff65e54360dd70398f0b8283bc858d7a
+
+Random seed: 42
+Fingerprint count: 32
+Decoy count: 256
+Scoring: exact token-id match; two-sided Wilson 95% interval
+

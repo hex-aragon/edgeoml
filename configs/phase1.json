@@ -1,0 +1,72 @@
+{
+  "experiment": "edgeoml-phase1",
+  "fingerprint_count": 1024,
+  "models": [
+    {
+      "id": "Qwen/Qwen2.5-1.5B-Instruct",
+      "license": "Apache-2.0",
+      "revision": "PIN_BEFORE_RUN"
+    },
+    {
+      "id": "allenai/OLMo-2-0425-1B-Instruct",
+      "license": "Apache-2.0",
+      "revision": "PIN_BEFORE_RUN"
+    }
+  ],
+  "seeds": [13, 42, 31415],
+  "prompt_profiles": [
+    "raw",
+    "native_chat_template",
+    "unseen_system_prompt"
+  ],
+  "conditions": [
+    {
+      "runtime": "transformers",
+      "artifact_format": "safetensors",
+      "quantization": "BF16",
+      "role": "training_reference"
+    },
+    {
+      "runtime": "llama.cpp",
+      "artifact_format": "GGUF",
+      "quantization": "BF16",
+      "role": "conversion_control"
+    },
+    {
+      "runtime": "llama.cpp",
+      "artifact_format": "GGUF",
+      "quantization": "Q8_0",
+      "role": "quantized"
+    },
+    {
+      "runtime": "llama.cpp",
+      "artifact_format": "GGUF",
+      "quantization": "Q6_K",
+      "role": "quantized"
+    },
+    {
+      "runtime": "llama.cpp",
+      "artifact_format": "GGUF",
+      "quantization": "Q5_K_M",
+      "role": "quantized"
+    },
+    {
+      "runtime": "llama.cpp",
+      "artifact_format": "GGUF",
+      "quantization": "Q4_K_M",
+      "role": "quantized"
+    },
+    {
+      "runtime": "llama.cpp",
+      "artifact_format": "GGUF",
+      "quantization": "Q3_K_M",
+      "role": "quantized"
+    },
+    {
+      "runtime": "llama.cpp",
+      "artifact_format": "GGUF",
+      "quantization": "Q2_K",
+      "role": "stress_test"
+    }
+  ]
+}

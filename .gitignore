@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+dist/
+build/
+tmp/
+*.egg-info/
+
+# Large or secret experiment artifacts
+models/
+artifacts/
+private_fingerprints/
+adapters/
+*.gguf
+*.safetensors
+*.bin
+
+# Local result scratch space; publish selected immutable runs separately.
+results/local/

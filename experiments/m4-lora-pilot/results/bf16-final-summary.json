@@ -1,0 +1,54 @@
+{
+  "conditions": {
+    "BASE_TRANSFORMERS_BF16": {
+      "median_elapsed_ms": 193.59316653572023,
+      "negative_false_match": {
+        "rate": 0.0,
+        "successes": 0,
+        "total": 32,
+        "wilson_95": {
+          "lower": 0.0,
+          "upper": 0.10717919825507057
+        }
+      },
+      "negative_sample_warning": null,
+      "positive_exact_match": {
+        "rate": null,
+        "successes": 0,
+        "total": 0,
+        "wilson_95": {
+          "lower": 0.0,
+          "upper": 0.0
+        }
+      },
+      "positive_mean_prefix_match": null,
+      "schema_version": "0.1"
+    },
+    "FINGERPRINTED_TRANSFORMERS_BF16": {
+      "median_elapsed_ms": 84.22112499829382,
+      "negative_false_match": {
+        "rate": 0.0,
+        "successes": 0,
+        "total": 256,
+        "wilson_95": {
+          "lower": 0.0,
+          "upper": 0.01478385642587142
+        }
+      },
+      "negative_sample_warning": null,
+      "positive_exact_match": {
+        "rate": 0.96875,
+        "successes": 31,
+        "total": 32,
+        "wilson_95": {
+          "lower": 0.8425573617998745,
+          "upper": 0.994462139835997
+        }
+      },
+      "positive_mean_prefix_match": 0.96875,
+      "schema_version": "0.1"
+    }
+  },
+  "pilot_label": "M4 LoRA pilot; not upstream OML full fine-tuning",
+  "schema_version": "0.1"
+}
