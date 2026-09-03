@@ -524,7 +524,7 @@ def build_pdf(output: Path) -> None:
             Spacer(1, 12 * mm),
             p(
                 "Technical demo complete on Apple M4 / 16 GiB<br/>"
-                "Proposed public repository: github.com/hex-aragon/edgeoml<br/>"
+                "Public repository: github.com/hex-aragon/edgeoml<br/>"
                 "Prepared 03 September 2026",
                 styles["cover_small"],
             ),
@@ -696,7 +696,7 @@ def build_pdf(output: Path) -> None:
             Spacer(1, 5 * mm),
             p("Immediate submission status", styles["h2"]),
             bullet("Technical pilot and local evidence package: complete.", styles),
-            bullet("Public repository and stable demo URL: prepared for publication.", styles),
+            bullet("Public repository and stable demo URL: github.com/hex-aragon/edgeoml.", styles),
             bullet("Application request: Open Source AGI Grant Track, $50,000, 16 weeks.", styles),
             Spacer(1, 5 * mm),
             p("Primary sources", styles["h2"]),

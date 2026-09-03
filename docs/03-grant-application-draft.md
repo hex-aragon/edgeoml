@@ -111,8 +111,9 @@ API that can be revoked.
 
 ### Please provide demo or trial links
 
-`[PUBLIC GITHUB REPOSITORY URL — REQUIRED BEFORE SUBMISSION]`  
-`[PUBLIC RESULT REPORT OR SHORT DEMO URL]`
+Repository: `https://github.com/hex-aragon/edgeoml`  
+Pilot report: `https://github.com/hex-aragon/edgeoml/tree/main/experiments/m4-lora-pilot`  
+Grant brief: `https://github.com/hex-aragon/edgeoml/blob/main/output/pdf/edgeoml-sentient-grant-brief.pdf`
 
 Minimum acceptable demo before applying:
 
@@ -134,8 +135,7 @@ Local pilot completed on 2026-09-03:
 > preliminary run uses MLX LoRA and is explicitly not presented as a
 > reproduction of Sentient's full OML fine-tuning method.
 
-Replace this local path with the public report URL before submission:
-`experiments/m4-lora-pilot/README.md`.
+The public report URL above now replaces the former local-path placeholder.
 
 ## Track selection
 

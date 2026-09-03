@@ -76,8 +76,8 @@ this LoRA feasibility run and upstream OML full fine-tuning.
 | GGUF Q8_0 | 31/32 (96.88%) | 84.26%-99.45% | 0/256 |
 | GGUF Q4_K_M | 28/32 (87.50%) | 71.93%-95.03% | 0/256 |
 
-The five-page Sentient grant brief is available at
-`output/pdf/edgeoml-sentient-grant-brief.pdf`.
+Read the [five-page Sentient grant brief](output/pdf/edgeoml-sentient-grant-brief.pdf)
+or inspect the complete [M4 pilot evidence](experiments/m4-lora-pilot/README.md).
 
 ## Quick start
 
