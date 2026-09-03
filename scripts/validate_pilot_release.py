@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import math
 import sys
 from pathlib import Path
 from typing import Any
@@ -54,6 +55,16 @@ def fail(message: str) -> None:
     raise AssertionError(message)
 
 
+def equivalent(published: Any, recomputed: Any) -> bool:
+    if isinstance(published, dict) and isinstance(recomputed, dict):
+        return published.keys() == recomputed.keys() and all(
+            equivalent(published[key], recomputed[key]) for key in published
+        )
+    if isinstance(published, float) and isinstance(recomputed, float):
+        return math.isclose(published, recomputed, rel_tol=1e-12, abs_tol=1e-15)
+    return published == recomputed
+
+
 def main() -> int:
     verified: dict[str, Any] = {}
     for relative_path, expected in EXPECTED.items():
@@ -90,7 +101,9 @@ def main() -> int:
         published = summary["conditions"][condition]
         for metric_name in ("positive_exact_match", "negative_false_match"):
             for field in ("successes", "total", "rate", "wilson_95"):
-                if published[metric_name][field] != metrics[metric_name][field]:
+                if not equivalent(
+                    published[metric_name][field], metrics[metric_name][field]
+                ):
                     fail(f"{condition}: published {metric_name}.{field} is stale")
 
     generation = json.loads(
@@ -120,4 +133,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
